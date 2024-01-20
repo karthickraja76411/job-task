@@ -25,7 +25,7 @@ const AddPersonalDetails = () => {
     });
 
     async function onResult(data) {
-        console.log(data);
+        // console.log(data);
         dispatch(addPersonalData(data))
     }
 
